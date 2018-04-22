@@ -1,0 +1,9 @@
+# ----- Getting your text editor ----- #
+
+# download and install Sublime Text 3 - our main tool we'll be using for this course
+https://www.sublimetext.com/3
+
+# we will tinker with the install to tailor it for python development later.
+
+# BONUS: create a shortcut to open sublime from the command line
+https://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
