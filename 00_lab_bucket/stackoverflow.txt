@@ -1,0 +1,11 @@
+# ------- Intro to Stackoverflow ------- #
+# you will be using stackoverflow (SO) a lot throughout your programming journey.
+# let's start off by taking a peek into this vast lands of knowledge.
+
+# sign up for stackoverflow.com and take the tour:
+https://stackoverflow.com/tour
+
+# read some questions and answers on SO (=stackoverflow):
+# - type any question you have about programming in google search and include 'stackoverflow'
+#   - this can be as simple as 'what is programming stackoverflow'
+# - add 'python' to your 'Favorite Tags' on SO. click it to see recent questions tagged with 'python' and read some that sound interesting (or just peculiar) ;)
