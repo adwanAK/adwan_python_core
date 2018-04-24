@@ -28,3 +28,13 @@ There are two main ways in which you get started working with a git repository o
             - Commit file(s)
             - Push file(s) to Github repository
 
+5.) More practice cloning
+	- spend some time looking at the repositories on Github
+	- find three projects that interest you and clone them to your local machine (in a new folder inside of CodingNomads)
+	- create repositories on your Github for each project
+	- add remotes to each local repo
+	- push each repo to your Github repos
+
+
+
+
