@@ -1,11 +1,11 @@
-1.) What is the difference between an interpretor and a complier? Which is used for Python?
+1 - What is the difference between an interpretor and a complier? Which is used for Python?
 
-What are two ways to execute Python code?
+2 - What are two ways to execute Python code?
 
-How do you execute a Python script?
+3 - How do you execute a Python script?
 
-In your own words describe what a program is and what programs are made up of.
+4 - In your own words describe what a program is and what programs are made up of.
 
-What are the main three types of errors and how do you come across them?
+5 - What are the main three types of errors and how do you come across them?
 
-What does it mean to debug a program? What are some ways to debug a program?
+6 - What does it mean to debug a program? What are some ways to debug a program?

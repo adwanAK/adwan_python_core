@@ -1,4 +1,4 @@
-1.) Using the command line, how do you:
+1 - Using the command line, how do you:
     - change directories?
     - list the contents of a folder?
     - print the path of the current directory?
