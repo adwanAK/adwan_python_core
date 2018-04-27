@@ -1,0 +1,23 @@
+1 - What is git?
+
+2 - What is Github?
+
+3 - What is the general flow of git?
+
+4 - What is a branch?
+
+5 - What is a remote?
+
+6 - What is the purpose of adding a remote to a local git repository?
+
+7 - What are the commands to do the following?
+	- initialize a git repository
+	- clone a repository from Github
+	- add a file to the staging area
+	- make a commit
+	- push to Github
+	- pull from Github
+	- see the names of the branches
+	- see the names of the remotes
+	- add a new remote
+
