@@ -1,0 +1,2 @@
+# exclude all virtual environments from commits
+venv/
