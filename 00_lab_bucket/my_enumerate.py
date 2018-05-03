@@ -10,8 +10,8 @@ def my_enumerate(iterable, start=0):
         count += 1
 
 twelve_monkeys = ['James', 'Jeffrey', 'Jose', 'Scarface', 'Tiny',
-					'Kathryn', 'L.J.', 'Marilou', 'Louie', 'Teddy',
-					'Fale', 'Wayne']
+                    'Kathryn', 'L.J.', 'Marilou', 'Louie', 'Teddy',
+                    'Fale', 'Wayne']
 
 # compare output from custom function to built-in function
 print([x for x in my_enumerate(twelve_monkeys)])
