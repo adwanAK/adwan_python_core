@@ -1,58 +1,58 @@
-- What is a function?
+1 - What is a function?
 
-- What does mean to have a function that "takes" a value?
+2 - What does mean to have a function that "takes" a value?
 
-- What is a return value?
+3 - What is a return value?
 
-- What do type conversion functions do? 
+4 - What do type conversion functions do? 
 
-- What happens if you call the int() function and pass it a string? 
+5 - What happens if you call the int() function and pass it a string? 
 
-- What happens if you call the str() function and pass it an int?
+6 - What happens if you call the str() function and pass it an int?
 
-- How do you import a class to one of your programms?
+7 - How do you import a class to one of your programms?
 
-- How do you use math functions in one of your programs?
+8 - How do you use math functions in one of your programs?
 
-- What is the dot notation?
+9 - What is the dot notation?
 
-- What is composition?
+10 - What is composition?
 
-- Give an example of composition in a function call?
+11 - Give an example of composition in a function call?
 
-- How do you define a function?
+12 - How do you define a function?
 
-- Provide the function header of a function named hello_world().
+13 - Provide the function header of a function named hello_world().
 
-- Provide the function header and body of a function named hello_world() that prints out "Hello World" 3 times.
+14 - Provide the function header and body of a function named hello_world() that prints out "Hello World" 3 times.
 
-- Can functions call other functions?
+15 - Can functions call other functions?
 
-- Complete Exercise 3.1 and 3.2 from the text book.
+16 - Complete Exercise 3.1 and 3.2 from the text book.
 
-- What is the flow of execution?
+17 - What is the flow of execution?
 
-- Where does a program begin execution?
+18 - Where does a program begin execution?
 
-- How does a function call change the flow of of execution?
+19 - How does a function call change the flow of of execution?
 
-- Do the rules of composition apply to method parameters as well?
+20 - Do the rules of composition apply to method parameters as well?
 
-- Do parameters and variables inside of a function exist outside of the method? Why or why not?
+21 - Do parameters and variables inside of a function exist outside of the method? Why or why not?
 
-- How can stack diagrams be useful?
+22 - How can stack diagrams be useful?
 
-- What is the difference between a "fruitful" funciton and a void function?
+23 - What is the difference between a "fruitful" funciton and a void function?
 
-- What are some of the reasons we seperate our code into funcitons?
+24 - What are some of the reasons we seperate our code into funcitons?
 
-- What is the difference between the following two statements?
+25 - What is the difference between the following two statements?
 	import math
 	<and>
 	from math import *
 
 	How can you use the functions of the math module in each case?
 
- 
+
 
 	
