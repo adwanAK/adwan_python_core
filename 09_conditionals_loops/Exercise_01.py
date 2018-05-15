@@ -7,7 +7,7 @@ NOTE: We will be using the input() function. This is demonstrated below.
 '''
 
 #collect input from the user
-user_input = int(input("Enter a number between 1 and 1,000,000,000 to see whether is it add or even: "))
+user_input = int(input("Enter a number between 1 and 1,000,000,000 to see whether is it odd or even: "))
 
 #print the number the user inputed to the console
 print ("The user input is " + str(user_input))
