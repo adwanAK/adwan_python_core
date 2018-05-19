@@ -10,7 +10,7 @@ CodingNomads repo for Python fundamentals. Final version should include:
 ## lab_bucket
 Contains projects and labs to be discussed and selected and then moved into whichever part they fit best.
 
-### labs_todo
+## labs_todo
 
 - 01_intro
     - think about adding more questions and labs
