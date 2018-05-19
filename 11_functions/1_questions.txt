@@ -4,13 +4,13 @@
 
 3 - What is a return value?
 
-4 - What do type conversion functions do? 
+4 - What do type conversion functions do?
 
-5 - What happens if you call the int() function and pass it a string? 
+5 - What happens if you call the int() function and pass it a string?
 
 6 - What happens if you call the str() function and pass it an int?
 
-7 - How do you import a class to one of your programms?
+7 - How do you import a class to one of your programs?
 
 8 - How do you use math functions in one of your programs?
 
@@ -42,9 +42,9 @@
 
 22 - How can stack diagrams be useful?
 
-23 - What is the difference between a "fruitful" funciton and a void function?
+23 - What is the difference between a "fruitful" function and a void function?
 
-24 - What are some of the reasons we seperate our code into funcitons?
+24 - What are some of the reasons we separate our code into functions?
 
 25 - What is the difference between the following two statements?
 	import math
@@ -55,4 +55,4 @@
 
 MORE FRUITFUL FUNCTIONS (chapter 6)
 
-	
+

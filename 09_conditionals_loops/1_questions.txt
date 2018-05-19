@@ -1,21 +1,21 @@
-- What is a boolean expression?
+1 - What is a boolean expression?
 
-- What are relational operators used for?
+2 - What are relational operators used for?
 
-- What is the difference between == and = ?
+3 - What is the difference between == and = ?
 
-- What are the three logical operators?
+4 - What are the three logical operators?
 
-- What do relational and logical operators evaluate to?
+5 - What do relational and logical operators evaluate to?
 
-- What is the if statement used for?
+6 - What is the if statement used for?
 
-- What is an if/else statement used for?
+7 - What is an if/else statement used for?
 
-- What is a chained conditional? How do you chain conditionals?
+8 - What is a chained conditional? How do you chain conditionals?
 
-- How many conditionals can you chain?
+9 - How many conditionals can you chain?
 
-- What is a nested conditional?
+10 - What is a nested conditional?
 
 RECURSION?
