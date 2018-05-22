@@ -1,2 +1,48 @@
- *      Take in a word from the user and usig a "while" loop, find the first vowel in the word.
+ *      Take in a word from the user and using a "while" loop, find the first vowel in the word.
  *      Once you find the vowel, print out the word and the first vowel.
+
+ Complete exercise
+ 8.5 - Encapsulate this code in a function named count, and generalize it so that it accepts the string and the letter as arguments.
+
+ 8.6 - Rewrite this function so that instead of traversing the string, it uses the three- parameter version of find from the previous section.
+
+
+
+ - What is a string?
+
+ - What is an index?
+
+ - What letter will the following code print? Why?
+
+ word = 'hello'
+ index_two = word[2]
+ print index_two
+
+- What is the len() functions used for?
+
+- How can you get the last character of a word using the len() function?
+
+- What is string slicing and how does it work?
+
+- How to do slice the string "python" to produce the string "thon"?
+
+- How can you use slicing to store the first and last character of a word in separate variables?
+
+- What is the answer to Exercise 8.3 from the textbook?
+
+- Can you change one or more character of a string? Why or why not?
+
+- What is invocation?
+
+- How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
+
+- Complete Exercise 8.7 from the textbook.
+
+- Follow the directions for Exercise 8.8 until you feel comfortable with the string methods and what methods are available.
+
+- How is the in operator used?
+
+
+
+
+

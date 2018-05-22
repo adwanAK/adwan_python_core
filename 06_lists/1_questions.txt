@@ -1,0 +1,24 @@
+- Can you have a list with more than one type?
+
+- How do you create a list?
+
+- How do you nest a list?
+
+- Lists are mutable. Explain this.
+
+- What does it mean to have the [] operators on the left side of an assignment?
+
+- What happens with a index value is negative? How does this change how an element is accessed?
+
+- How can you use the in operator to determine in a value exists in a list?
+
+- How can you use the + and * operators on lists?
+
+- What is an augmented assignment statement?
+
+- WHat are three ways delete an element from a list? How are they different?
+
+- What is the difference between and list and a string?
+
+- What is the difference between the list function and the split method?
+
