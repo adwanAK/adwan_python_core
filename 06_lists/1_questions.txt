@@ -20,5 +20,25 @@
 
 - What is the difference between and list and a string?
 
-- What is the difference between the list function and the split method?
+- What is the difference between the list() function and the split method()?
+
+- How do you use a delimiter with he split() method?
+
+- What is the is operator used for?
+
+- If two objects are identical does that also make them equivalent?
+
+- If two objects are equivalent does that also make them identical?
+
+- What is a reference?
+
+- What is it called when an object has more than one reference?
+
+- Give an example of an operation that modifies a list.
+
+- Give an example of an operation that creates a new list.
+
+- What is one reason it is important to know the difference between the two kinds of operations above?
+
+
 
