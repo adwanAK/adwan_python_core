@@ -1,0 +1,18 @@
+- What is one important difference between tuples and lists?
+
+- What are two ways to create a tuple?
+
+- Give an example of tuple assignment to assign two variables.
+
+- Why is it beneficial to return a tuple from a function?
+
+- What are variable-length arguments?
+
+- How is gather and scatter used?
+
+- What does the zip function do?
+
+- What does the items method do?
+
+- How are tuples compared when relational operators are used?
+
