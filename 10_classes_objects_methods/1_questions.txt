@@ -12,5 +12,31 @@
 
 - What is the difference between copy.copy and copy.deepcopy? What do they each do?
 
--
+- What is the difference between a pure function and a modifier?
+
+- What is object-oriented programming?
+
+- What is a method? What makes it different than a function?
+
+- What is the init method and what is it used for?
+
+- Give an example init method for a Car class with the attribute make, model and year.
+
+- How do init methods handle variable arguments?
+
+- What is the __str__ method used for?
+
+- How do you use a __str__ method?
+
+- What is operator overloading?
+
+- What is an example or operator overloading?
+
+TYPE-BASED DISPATCH?
+
+- What is polymorphism?
+
+- Why is polymorphism beneficial?
+
+
 
