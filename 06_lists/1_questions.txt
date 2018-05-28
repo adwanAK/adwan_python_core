@@ -1,44 +1,44 @@
-- Can you have a list with more than one type?
+1 - Can you have a list with more than one type?
 
-- How do you create a list?
+2 - How do you create a list?
 
-- How do you nest a list?
+3 - How do you nest a list?
 
-- Lists are mutable. Explain this.
+4 - Lists are mutable. Explain this.
 
-- What does it mean to have the [] operators on the left side of an assignment?
+5 - What does it mean to have the [] operators on the left side of an assignment?
 
-- What happens with a index value is negative? How does this change how an element is accessed?
+6 - What happens with a index value is negative? How does this change how an element is accessed?
 
-- How can you use the in operator to determine in a value exists in a list?
+7 - How can you use the in operator to determine in a value exists in a list?
 
-- How can you use the + and * operators on lists?
+8 - How can you use the + and * operators on lists?
 
-- What is an augmented assignment statement?
+9 - What is an augmented assignment statement?
 
-- WHat are three ways delete an element from a list? How are they different?
+10 - WHat are three ways delete an element from a list? How are they different?
 
-- What is the difference between and list and a string?
+11 - What is the difference between and list and a string?
 
-- What is the difference between the list() function and the split method()?
+12 - What is the difference between the list() function and the split method()?
 
-- How do you use a delimiter with he split() method?
+13 - How do you use a delimiter with he split() method?
 
-- What is the is operator used for?
+14 - What is the is operator used for?
 
-- If two objects are identical does that also make them equivalent?
+15 - If two objects are identical does that also make them equivalent?
 
-- If two objects are equivalent does that also make them identical?
+16 - If two objects are equivalent does that also make them identical?
 
-- What is a reference?
+17 - What is a reference?
 
-- What is it called when an object has more than one reference?
+18 - What is it called when an object has more than one reference?
 
-- Give an example of an operation that modifies a list.
+19 - Give an example of an operation that modifies a list.
 
-- Give an example of an operation that creates a new list.
+20 - Give an example of an operation that creates a new list.
 
-- What is one reason it is important to know the difference between the two kinds of operations above?
+21 - What is one reason it is important to know the difference between the two kinds of operations above?
 
 
 
