@@ -1,0 +1,11 @@
+- What is the difference between class attributes and instance attributes?
+
+- What is inheritance?
+
+- Why do we use inheritance?
+
+- How does a class inherit another class?
+
+- What is an example of a parent/child class relationship?
+
+- How many levels can a hierarchy extend?
