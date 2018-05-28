@@ -31,12 +31,18 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - iteration exercises
 
 - 06_lists
+    - clean up questions
     - exercises
     - iteration exercises
 
 - 07_tuples
+    - clean up questions
+    - exercises
 
 - 08_dictionaries
+    - clean up questions
+    - questions
+    - exercises
 
 - 09_conditionals_loops
     - for loop questions
@@ -48,6 +54,9 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - iteration chapter
 
 - 10_classes_objects_methods
+    - questions
+    - include type-based dispatch?
+    - exercises
     - string methods (page 75)
 
 - 11_functions
@@ -55,7 +64,12 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - add exercises
 
 - 12_inheritance
+    - questions
+    - exercises
 
 - 13_files
+    - clean up questions
+    - exercises
+    - Note: skipped db I/O and pickling
 
 
