@@ -1,46 +1,36 @@
- *      Take in a word from the user and using a "while" loop, find the first vowel in the word.
- *      Once you find the vowel, print out the word and the first vowel.
+1 - What is a string?
 
- Complete exercise
- 8.5 - Encapsulate this code in a function named count, and generalize it so that it accepts the string and the letter as arguments.
+2 - What is an index?
 
- 8.6 - Rewrite this function so that instead of traversing the string, it uses the three- parameter version of find from the previous section.
+3 - What letter will the following code print? Why?
 
+    word = 'hello'
+    index_two = word[2]
+    print index_two
 
+4 - What is the len() functions used for?
 
- - What is a string?
+5 - How can you get the last character of a word using the len() function?
 
- - What is an index?
+6 - What is string slicing and how does it work?
 
- - What letter will the following code print? Why?
+7 - How to do slice the string "python" to produce the string "thon"?
 
- word = 'hello'
- index_two = word[2]
- print index_two
+8 - How can you use slicing to store the first and last character of a word in separate variables?
 
-- What is the len() functions used for?
+9 - What is the answer to Exercise 8.3 from the textbook?
 
-- How can you get the last character of a word using the len() function?
+10 - Can you change one or more character of a string? Why or why not?
 
-- What is string slicing and how does it work?
+11 - What is invocation?
 
-- How to do slice the string "python" to produce the string "thon"?
+12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
 
-- How can you use slicing to store the first and last character of a word in separate variables?
+13 - Complete Exercise 8.7 from the textbook.
 
-- What is the answer to Exercise 8.3 from the textbook?
+14 - Follow the directions for Exercise 8.8 until you feel comfortable with the string methods and what methods are available.
 
-- Can you change one or more character of a string? Why or why not?
-
-- What is invocation?
-
-- How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
-
-- Complete Exercise 8.7 from the textbook.
-
-- Follow the directions for Exercise 8.8 until you feel comfortable with the string methods and what methods are available.
-
-- How is the in operator used?
+15 - How is the in operator used?
 
 
 
