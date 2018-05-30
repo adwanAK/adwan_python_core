@@ -16,6 +16,13 @@
 
 - What is object-oriented programming?
 
+Methods (page 75)
+- What is a method?
+
+- How is a method different than a function?
+
+- What is invocation?
+
 - What is a method? What makes it different than a function?
 
 - What is the init method and what is it used for?
