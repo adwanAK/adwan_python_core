@@ -1,31 +1,31 @@
-- Read chapter 9.1
+1 - Read chapter 9.1
 
-- How do you open a file in read mode and print the first line?
+2 - How do you open a file in read mode and print the first line?
 
-- How can you use a for loop to iterate through the words of a file?
+3 - How can you use a for loop to iterate through the words of a file?
 
-- What does it mean when a program is persistent?
+4 - What does it mean when a program is persistent?
 
-- How do you open a file in write mode?
+5 - How do you open a file in write mode?
 
-- What is the format operator?
+6 - What is the format operator?
 
-- Give an example of how to use the format operator.
+7 - Give an example of how to use the format operator.
 
-- What are each of the following operators used for?
+8 - What are each of the following operators used for?
 
     %d
     %g
     %s
 
-- What is the difference between a relative path and an absolute path?
+9 - What is the difference between a relative path and an absolute path?
 
-- What are some IOExceptions that you might encounter? How are they generated?
+10 - What are some IOExceptions that you might encounter? How are they generated?
 
-- What is a try statement used for?
+11 - What is a try statement used for?
 
-- What is an except statement used for?
+12 - What is an except statement used for?
 
-- Can you have a try without an except? Can you have an except without a try?
+13 - Can you have a try without an except? Can you have an except without a try?
 
-- What is the variable __name__ used for?
+14 - What is the variable __name__ used for?
