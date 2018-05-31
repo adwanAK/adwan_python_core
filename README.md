@@ -26,17 +26,13 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - solutions
 
 - 05_string
-    - clean up questions
-    - exercises
-    - iteration exercises
+    - solutions
+    - not sure we need exercise_06
 
 - 06_lists
-    - clean up questions
-    - exercises
-    - iteration exercises
+    - solutions
 
 - 07_tuples
-    - clean up questions
     - exercises
 
 - 08_dictionaries
@@ -54,7 +50,6 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - iteration chapter
 
 - 10_classes_objects_methods
-    - questions
     - include type-based dispatch?
     - exercises
     - string methods (page 75)
@@ -64,8 +59,7 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - add exercises
 
 - 12_inheritance
-    - questions
-    - exercises
+    solutions
 
 - 13_files
     - clean up questions
