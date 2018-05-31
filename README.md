@@ -33,37 +33,30 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - solutions
 
 - 07_tuples
-    - exercises
+    - solutions
 
 - 08_dictionaries
-    - clean up questions
-    - questions
-    - exercises
+    - solutions
+    - do we want to read chapter 13?
 
 - 09_conditionals_loops
-    - for loop questions
-    - for loop with range and len (page 89)
-    - break
-    - return in a loop
     - add recursion questions
     - add recursion labs
-    - iteration chapter
+    - solutions
 
 - 10_classes_objects_methods
     - include type-based dispatch?
-    - exercises
-    - string methods (page 75)
+    - solutions
 
 - 11_functions
-    - add "fruitful" function questions
-    - add exercises
+    - solutions
+    - need more exercises?
 
 - 12_inheritance
-    solutions
+    - solutions
 
 - 13_files
-    - clean up questions
-    - exercises
+    -solutions
     - Note: skipped db I/O and pickling
 
 
