@@ -14,10 +14,16 @@
 
 8 - What is a chained conditional? How do you chain conditionals?
 
-9 - How many conditionals can you chain?
+9 - What is a nested conditional?
 
-10 - What is a nested conditional?
+10 - Is there a limit to how many conditional statements you can nest?
 
-11 -
+11 - What is a while loop?
+
+12 - What is a for loop? How is it different than a while loop?
+
+11 - What does the break statement do?
+
+12 - Is there a limit to how many loops you can nest?
 
 RECURSION?
