@@ -12,9 +12,10 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 ## labs_todo
 
+TODO (for all): add answers to text questions
+
 - 01_intro
     - think about adding more questions and labs
-    - solutions
 
 - 02_command_line
     - solutions
