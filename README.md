@@ -18,13 +18,11 @@ TODO (for all): add answers to text questions
     - think about adding more questions and labs
 
 - 02_command_line
-    - solutions
 
 - 03_git
-    - solutions
 
 - 04_variable_statements
-    - solutions
+    - Ex01 only requires copy-paste?
 
 - 05_string
     - solutions
