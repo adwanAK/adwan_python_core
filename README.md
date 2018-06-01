@@ -22,7 +22,8 @@ TODO (for all): add answers to text questions
 - 03_git
 
 - 04_variable_statements
-    - Ex01 only requires copy-paste?
+    - Ex01 - Ex03 only require copy-paste?
+    - TODO (move): 08 + 09 are about user input()
 
 - 05_string
     - solutions
