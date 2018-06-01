@@ -26,8 +26,8 @@ TODO (for all): add answers to text questions
     - TODO (move): 08 + 09 are about user input()
 
 - 05_string
-    - solutions
     - not sure we need exercise_06
+    - yeah I found it a bit confusing, maybe can be further improved
 
 - 06_lists
     - solutions
