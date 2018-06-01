@@ -20,11 +20,11 @@
 
 11 - What is the difference between and list and a string?
 
-12 - What is the difference between the list() function and the split method()?
+12 - What is the difference between the list() function and the split() method?
 
-13 - How do you use a delimiter with he split() method?
+13 - How do you use a delimiter with the split() method?
 
-14 - What is the is operator used for?
+14 - What is the `is` operator used for?
 
 15 - If two objects are identical does that also make them equivalent?
 
