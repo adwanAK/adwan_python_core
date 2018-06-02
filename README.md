@@ -16,6 +16,9 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 ## labs_todo
 
+### Ordering
+- 09_conditionals_loops section should come much earlier
+
 ### Questions for Caden
 
 - how did you choose the exercises from the book?
@@ -54,8 +57,7 @@ TODO (for all): add answers to text questions; connect textbook example answers
     - more tuple labs/projects
 
 - 08_dictionaries
-    - solutions
-    - do we want to read chapter 13?
+    - do we want to read chapter 13? -- yes I like it. also relevant to Casey!
 
 - 09_conditionals_loops
     - add recursion questions
