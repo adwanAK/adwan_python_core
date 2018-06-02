@@ -6,6 +6,7 @@ Write a script that takes in a list of numbers and:
 
 
 Notes:
-If the user enters an odd numbered list, add the last item to a tuple with the number 0.
+If the user enters an odd numbered list, add the last item
+to a tuple with the number 0.
 
 '''

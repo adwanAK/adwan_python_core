@@ -10,6 +10,10 @@ CodingNomads repo for Python fundamentals. Final version should include:
 ## lab_bucket
 Contains projects and labs to be discussed and selected and then moved into whichever part they fit best.
 
+## more mini-projects/labs
+- tuples
+-
+
 ## labs_todo
 
 ### Questions for Caden
@@ -23,7 +27,7 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 ### TODOs on lab sections
 
-TODO (for all): add answers to text questions
+TODO (for all): add answers to text questions; connect textbook example answers
 
 - 01_intro
     - think about adding more questions and labs
@@ -47,7 +51,7 @@ TODO (for all): add answers to text questions
         - solutions can be added separately
 
 - 07_tuples
-    - solutions
+    - more tuple labs/projects
 
 - 08_dictionaries
     - solutions
