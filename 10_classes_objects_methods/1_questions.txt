@@ -1,3 +1,5 @@
+## Classes and OOP
+
 - What is a class?
 
 - How do you define a new class called MyFirstClass?
@@ -16,7 +18,9 @@
 
 - What is object-oriented programming?
 
-Methods (page 75)
+
+## Methods (page 75)
+
 - What is a method?
 
 - How is a method different than a function?
@@ -39,11 +43,9 @@ Methods (page 75)
 
 - What is an example or operator overloading?
 
-TYPE-BASED DISPATCH?
+
+## TYPE-BASED DISPATCH?
 
 - What is polymorphism?
 
 - Why is polymorphism beneficial?
-
-
-

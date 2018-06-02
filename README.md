@@ -21,6 +21,7 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 ### Questions for Caden
 
+- which version of the book did you use?
 - how did you choose the exercises from the book?
 - shouldn't the students do all exercises from the book?
 - if some, should they be written out in here or just refer to the book?
@@ -30,7 +31,10 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 ### TODOs on lab sections
 
-TODO (for all): add answers to text questions; connect textbook example answers
+#### TODO (for all): add answers to text questions; connect textbook example answers
+#### Go over all and fix the exercise and page numbering!
+
+#### Section-specific notes
 
 - 01_intro
     - think about adding more questions and labs
@@ -62,11 +66,10 @@ TODO (for all): add answers to text questions; connect textbook example answers
 - 09_conditionals_loops
     - add recursion questions
     - add recursion labs
-    - solutions
 
 - 10_classes_objects_methods
     - include type-based dispatch?
-    - solutions
+    - build out exercise 3
 
 - 11_functions
     - solutions
