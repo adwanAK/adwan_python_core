@@ -18,6 +18,7 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 ### Ordering
 - 09_conditionals_loops section should come much earlier
+- 11 functions before 10 classes methods
 
 ### Questions for Caden
 

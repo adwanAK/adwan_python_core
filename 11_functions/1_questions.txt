@@ -28,7 +28,7 @@
 
 15 - Can functions call other functions?
 
-16 - Complete Exercise 3.1 and 3.2 from the text book.
+16 - Complete Exercise 3.1 (p.26) and 3.2 (p.27) from the text book.
 
 17 - What is the flow of execution?
 
