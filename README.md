@@ -73,14 +73,15 @@ Contains projects and labs to be discussed and selected and then moved into whic
     - build out exercise 3
 
 - 11_functions
-    - solutions
     - need more exercises?
 
 - 12_inheritance
     - solutions
+    - in 01 fix the reference to the "Exercise 02 from objects_classes_methods"
+        because it'll probably be called differently
 
 - 13_files
-    -solutions
     - Note: skipped db I/O and pickling
+    - Why? - thought is that we'll do this in Django with ORMs?
 
 
