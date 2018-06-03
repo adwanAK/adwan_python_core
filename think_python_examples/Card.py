@@ -1,16 +1,20 @@
-"""This module contains code from
-Think Python by Allen B. Downey
-http://thinkpython.com
+"""This module contains a code example related to
 
-Copyright 2012 Allen B. Downey
-License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+Think Python, 2nd Edition
+by Allen Downey
+http://thinkpython2.com
 
+Copyright 2015 Allen Downey
+
+License: http://creativecommons.org/licenses/by/4.0/
 """
+
+from __future__ import print_function, division
 
 import random
 
 
-class Card(object):
+class Card:
     """Represents a standard playing card.
     
     Attributes:
@@ -31,18 +35,24 @@ class Card(object):
         return '%s of %s' % (Card.rank_names[self.rank],
                              Card.suit_names[self.suit])
 
-    def __cmp__(self, other):
+    def __eq__(self, other):
+        """Checks whether self and other have the same rank and suit.
+
+        returns: boolean
+        """
+        return self.suit == other.suit and self.rank == other.rank
+
+    def __lt__(self, other):
         """Compares this card to other, first by suit, then rank.
 
-        Returns a positive number if this > other; negative if other > this;
-        and 0 if they are equivalent.
+        returns: boolean
         """
         t1 = self.suit, self.rank
         t2 = other.suit, other.rank
-        return cmp(t1, t2)
+        return t1 < t2
 
 
-class Deck(object):
+class Deck:
     """Represents a deck of cards.
 
     Attributes:
@@ -50,6 +60,8 @@ class Deck(object):
     """
     
     def __init__(self):
+        """Initializes the Deck with 52 cards.
+        """
         self.cards = []
         for suit in range(4):
             for rank in range(1, 14):
@@ -57,17 +69,25 @@ class Deck(object):
                 self.cards.append(card)
 
     def __str__(self):
+        """Returns a string representation of the deck.
+        """
         res = []
         for card in self.cards:
             res.append(str(card))
         return '\n'.join(res)
 
     def add_card(self, card):
-        """Adds a card to the deck."""
+        """Adds a card to the deck.
+
+        card: Card
+        """
         self.cards.append(card)
 
     def remove_card(self, card):
-        """Removes a card from the deck."""
+        """Removes a card from the deck or raises exception if it is not there.
+        
+        card: Card
+        """
         self.cards.remove(card)
 
     def pop_card(self, i=-1):
@@ -122,8 +142,8 @@ if __name__ == '__main__':
     deck.shuffle()
 
     hand = Hand()
-    print find_defining_class(hand, 'shuffle')
+    print(find_defining_class(hand, 'shuffle'))
 
     deck.move_cards(hand, 5)
     hand.sort()
-    print hand
+    print(hand)

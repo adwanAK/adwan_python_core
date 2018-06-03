@@ -1,13 +1,18 @@
-"""This module contains code from
-Think Python by Allen B. Downey
-http://thinkpython.com
+"""This module contains a code example related to
 
-Copyright 2012 Allen B. Downey
-License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+Think Python, 2nd Edition
+by Allen Downey
+http://thinkpython2.com
 
+Copyright 2015 Allen Downey
+
+License: http://creativecommons.org/licenses/by/4.0/
 """
 
-class LinearMap(object):
+from __future__ import print_function, division
+
+
+class LinearMap:
     """A simple implementation of a map using a list of tuples
     where each tuple is a key-value pair."""
 
@@ -28,7 +33,7 @@ class LinearMap(object):
         raise KeyError
 
 
-class BetterMap(object):
+class BetterMap:
     """A faster implementation of a map using a list of LinearMaps
     and the built-in function hash() to determine which LinearMap
     to put each key into."""
@@ -55,7 +60,7 @@ class BetterMap(object):
         return m.get(k)
 
 
-class HashMap(object):
+class HashMap:
     """An implementation of a hashtable using a BetterMap
     that grows so that the number of items never exceeds the number
     of LinearMaps.
@@ -92,7 +97,7 @@ class HashMap(object):
         self.maps = new_map
 
 
-def main(script):
+def main():
     import string
 
     m = HashMap()
@@ -102,9 +107,8 @@ def main(script):
         m.add(k, v)
 
     for k in range(len(s)):
-        print k, m.get(k)
+        print(k, m.get(k))
 
 
 if __name__ == '__main__':
-    import sys
-    main(*sys.argv)
+    main()
