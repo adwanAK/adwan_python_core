@@ -1,4 +1,7 @@
-# ----- aggregator functions ----- #
+'''
+Build a simple aggregator function.
+
+'''
 
 def add_vars(x: int, y: int, z: int) -> int:
     return x + y + z
