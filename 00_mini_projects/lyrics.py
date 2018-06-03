@@ -1,5 +1,12 @@
-# programmatically create your own song lyrics with multiple verses
-# interlaced with a repetitive chorus
+'''
+--------------------------------------------------------
+                PROGRAMMED SONG LYRICS
+--------------------------------------------------------
+
+Programmatically create your own song lyrics with multiple verses,
+interlaced with a repeating chorus.
+
+'''
 
 # writing our beautiful song lyrics
 lyrics = """this is my first verse, so beautiful oh yeah
