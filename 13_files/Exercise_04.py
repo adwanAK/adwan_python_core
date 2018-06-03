@@ -1,4 +1,4 @@
 '''
-Complete Exercise 14.5 from the textbook.
+Work through Chapter 14.9 (p.143) in the textbook and complete all tasks.
 
 '''
