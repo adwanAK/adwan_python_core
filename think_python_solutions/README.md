@@ -2,6 +2,7 @@ think-python
 ============
 
 Exercises related to the _"Think Python"_ programming textbook.
+
 _Created by Terry Bates_:
 [https://github.com/terryjbates/think-python](https://github.com/terryjbates/think-python)
 
