@@ -7,22 +7,13 @@ CodingNomads repo for Python fundamentals. Final version should include:
 - questions
 - project work
 
-## lab_bucket
-Contains projects and labs to be discussed and selected and then moved into whichever part they fit best.
-
 ## more mini-projects/labs
 - tuples
--
 
 ## labs_todo
 
-### Ordering
-- 09_conditionals_loops section should come much earlier
-- 11 functions before 10 classes methods
-
 ### Questions for Caden
 
-- which version of the book did you use?
 - how did you choose the exercises from the book?
 - shouldn't the students do all exercises from the book?
 - if some, should they be written out in here or just refer to the book?
@@ -39,10 +30,6 @@ Contains projects and labs to be discussed and selected and then moved into whic
 
 - 01_intro
     - think about adding more questions and labs
-
-- 02_command_line
-
-- 03_git
 
 - 04_variable_statements
     - Ex01 - Ex03 only require copy-paste?
