@@ -1,0 +1,40 @@
+0 - Why do we not program in plain English (or another natural language)?
+    * natural languages are ambivalent (one thing can have multiple meanings),
+        however computers need clear instructions to be able to execute them.
+    * some other attributes of formal languages: they are more concise
+        than natural languages, and take what you say very literally.
+
+
+1 - What is the difference between an interpretor and a compiler?
+    Which is used for Python?
+
+
+2 - What are two ways to execute Python code?
+
+
+3 - How do you execute a Python script?
+
+
+4 - In your own words describe what a program is
+    and what programs are made up of.
+
+
+5 - What are the main three types of errors and how do you come across them?
+    * syntax errors (there's something wrong in the formal "grammar"
+        of the language)
+    * runtime errors (syntax is correct, but something breaks when logic
+        is trying to be executed)
+    * semantic errors (program executes without complaining, but the
+        output is not what was expected)
+
+
+6 - What does it mean to debug a program?
+    What are some ways to debug a program?
+
+
+7 - What is a “high-level language” / what’s a “low-level-language”?
+    * high-level language: closer to human language and farther away from
+        machine language, usually able to be executed independent from
+        a specific machine
+    * low-level language: maps closely to the computers built; there is
+        little abstraction. often they are specific to how a machine operates

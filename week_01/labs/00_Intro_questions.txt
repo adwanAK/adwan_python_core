@@ -1,3 +1,5 @@
+0 - Why do we not program in plain English (or another natural language)?
+
 1 - What is the difference between an interpretor and a compiler?
     Which is used for Python?
 
@@ -12,3 +14,5 @@
 
 6 - What does it mean to debug a program?
     What are some ways to debug a program?
+
+7 - What is a “high-level language” / what’s a “low-level-language”?
