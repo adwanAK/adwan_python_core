@@ -12,15 +12,6 @@ CodingNomads repo for Python fundamentals. Final version should include:
 
 ## labs_todo
 
-### Questions for Caden
-
-- how did you choose the exercises from the book?
-- shouldn't the students do all exercises from the book?
-- if some, should they be written out in here or just refer to the book?
-- can you write objectives for the choice of the lab?
-    * makes it easier to sort them
-    * also great for students to understand why they are learning smth
-
 ### TODOs on lab sections
 
 #### TODO (for all): add answers to text questions; connect textbook example answers
@@ -48,9 +39,6 @@ CodingNomads repo for Python fundamentals. Final version should include:
 - 07_tuples
     - more tuple labs/projects
 
-- 08_dictionaries
-    - do we want to read chapter 13? -- yes I like it. also relevant to Casey!
-
 - 09_conditionals_loops
     - add recursion questions
     - add recursion labs
@@ -68,7 +56,4 @@ CodingNomads repo for Python fundamentals. Final version should include:
         because it'll probably be called differently
 
 - 13_files
-    - Note: skipped db I/O and pickling
-    - Why? - thought is that we'll do this in Django with ORMs?
-
-
+    - maybe add db I/O and pickling
