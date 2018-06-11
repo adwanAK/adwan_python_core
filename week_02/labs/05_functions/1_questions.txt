@@ -52,7 +52,3 @@
 	from math import *
 
 	How can you use the functions of the math module in each case?
-
-MORE FRUITFUL FUNCTIONS (chapter 6)
-
-
