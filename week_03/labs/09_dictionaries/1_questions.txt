@@ -14,19 +14,16 @@
 
 8 - What is an implementation?
 
-9 - There are three possible implementations of a problem posed on page 101 of the textbook. What are some issues with the first two?
+9 - Write an example for loop to traverse a dictionary loop_dict and print out the keys and values.
 
-10 - Write an example for loop to traverse a dictionary loop_dict and print out the keys and values.
+10 - How can you find search for a key given a value. What is this called?
 
-11 - How can you find search for a key given a value. What is this called?
+11 - Can lists be keys of a dictionary? Why or why not?
 
-12 - Can lists be keys of a dictionary? Why or why not?
+12 - Can lists be values of a dictionary? Why or why not?
 
-13 - Can lists be values of a dictionary? Why or why not?
+13 - What is a global variable?
 
-14 - What is a global variable?
+14 - How do you reassign a global variable inside of a function?
 
-15 - How do you reassign a global variable inside of a function?
-
-16 - When do you not need to use the global keyword to modify the value of a global variable?
-
+15 - When do you not need to use the global keyword to modify the value of a global variable?
