@@ -19,7 +19,7 @@
 - What is object-oriented programming?
 
 
-## Methods (page 75)
+## Methods (page 161)
 
 - What is a method?
 
@@ -29,7 +29,7 @@
 
 - What is a method? What makes it different than a function?
 
-- What is the init method and what is it used for?
+- What is the __init__ method and what is it used for?
 
 - Give an example init method for a Car class with the attribute make, model and year.
 
@@ -41,7 +41,7 @@
 
 - What is operator overloading?
 
-- What is an example or operator overloading?
+- What is an example of operator overloading?
 
 
 ## TYPE-BASED DISPATCH?
