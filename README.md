@@ -12,8 +12,6 @@ CodingNomads repo for Python fundamentals. Final version should include:
 
 ## labs_todo
 
-### TODOs on lab sections
-
 #### TODO: add answers to text questions; connect textbook example answers
 
 #### Section-specific notes
@@ -27,7 +25,6 @@ CodingNomads repo for Python fundamentals. Final version should include:
 
 - 05_string
     - not sure we need exercise_06
-    - yeah I found it a bit confusing, maybe can be further improved
 
 - 06_lists
     - 03(ex.10-1) introduces an easy map()
@@ -51,8 +48,6 @@ CodingNomads repo for Python fundamentals. Final version should include:
 
 - 12_inheritance
     - solutions
-    - in 01 fix the reference to the "Exercise 02 from objects_classes_methods"
-        because it'll probably be called differently
 
 - 13_files
     - maybe add db I/O and pickling
