@@ -14,8 +14,7 @@ CodingNomads repo for Python fundamentals. Final version should include:
 
 ### TODOs on lab sections
 
-#### TODO (for 10-12): add answers to text questions; connect textbook example answers
-#### Go over all and fix the exercise and page numbering!
+#### TODO: add answers to text questions; connect textbook example answers
 
 #### Section-specific notes
 

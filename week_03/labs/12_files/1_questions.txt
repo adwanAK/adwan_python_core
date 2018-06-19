@@ -1,4 +1,4 @@
-1 - Read chapter 9.1
+1 - Read through chapter 9.1
 
 2 - How do you open a file in read mode and print the first line?
 
@@ -8,24 +8,16 @@
 
 5 - How do you open a file in write mode?
 
-6 - What is the format operator?
+6 - Practice using f-strings as a replacement for the .format() method
 
-7 - Give an example of how to use the format operator.
+7 - What is the difference between a relative path and an absolute path?
 
-8 - What are each of the following operators used for?
+8 - What are some IOExceptions that you might encounter? How are they generated?
 
-    %d
-    %g
-    %s
+9 - What is a try statement used for?
 
-9 - What is the difference between a relative path and an absolute path?
+10 - What is an except statement used for?
 
-10 - What are some IOExceptions that you might encounter? How are they generated?
+11 - Can you have a try without an except? Can you have an except without a try?
 
-11 - What is a try statement used for?
-
-12 - What is an except statement used for?
-
-13 - Can you have a try without an except? Can you have an except without a try?
-
-14 - What is the variable __name__ used for?
+12 - What is the variable __name__ used for?

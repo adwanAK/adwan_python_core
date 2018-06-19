@@ -1,4 +1,6 @@
 '''
-Complete Exercise 14.1 (p.145) from the textbook.
+Complete Exercise 14.3 (p.146) from the textbook.
+
+Tackle your duplicate files!
 
 '''
