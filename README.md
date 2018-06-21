@@ -1,4 +1,4 @@
-# python_core
+# python core
 
 CodingNomads repo for Python fundamentals. Final version should include:
 
