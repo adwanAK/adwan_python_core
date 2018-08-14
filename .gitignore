@@ -1,3 +1,6 @@
 .DS_Store
 # exclude all virtual environments from commits
 venv/
+env
+# admin notes
+admin.md
