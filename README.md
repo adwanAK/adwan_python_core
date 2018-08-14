@@ -1,53 +1,48 @@
-# python core
+# Python for Back-End Web Development
 
-CodingNomads repo for Python fundamentals. Final version should include:
+Here you can find the labs and project instructions, as well as solutions,
+for the CodingNomads 12 week Python Back-End WebDev course.
 
-- labs
-- challenges
-- questions
-- project work
+Please refer to the [Course Overview](https://codingnomads.atlassian.net/wiki/spaces/PYC/pages/426934606/Course+Overview) for the glue that ties all this together :)
 
-## more mini-projects/labs
-- tuples
+---
 
-## labs_todo
+## Fork me!
 
-#### TODO: add answers to text questions; connect textbook example answers
+After you have created a GitHub account, press the "Fork" symbol at the
+top right of this repository. It looks like this:
 
-#### Section-specific notes
+![Fork repo](media/fork.png)
 
-- 01_intro
-    - think about adding more questions and labs
+This will create **your own copy** of all the files on your personal GitHub
+profile. You can then use the repo to practice pushing to and pulling from
+a remote repo, edit files locally when you complete the exercises, and
+keeping your personal changes under version control.
 
-- 04_variable_statements
-    - Ex01 - Ex03 only require copy-paste?
-    - TODO (move): 08 + 09 are about user input()
+### Contributing
 
-- 05_string
-    - not sure we need exercise_06
+There is always room for improvement for our material, and as a budding
+software developer, learning to contribute to a project is a great first
+step e.g. to get into open-source. Therefore remember:
 
-- 06_lists
-    - 03(ex.10-1) introduces an easy map()
-    - 03(ex.10-1) tried implementing it with recursion (IMPROVE!)
-    - 03-06 contain only references to the exercises in the book
-        - solutions can be added separately
 
-- 07_tuples
-    - more tuple labs/projects
+**We appreciate `pull` requests!**
 
-- 09_conditionals_loops
-    - add recursion questions
-    - add recursion labs
 
-- 10_classes_objects_methods
-    - include type-based dispatch?
-    - build out exercise 3
+If you don't yet know what that means, no worries! Either come back later,
+or read the links below. Basically, it's easy:
 
-- 11_functions
-    - need more exercises?
 
-- 12_inheritance
-    - solutions
+If you **find a typo**, or a **mistake in the code** - or you **want to add an
+exercise of your own for other students to learn from** - you can add
+these improvements to the original repository.
 
-- 13_files
-    - maybe add db I/O and pickling
+
+Check out how to [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) and how to [create a pull request from
+a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+
+
+<img src="media/cn_square.png" alt="CodingNomads logo" width="400px"/>
+
+
+Keep learning! :)
