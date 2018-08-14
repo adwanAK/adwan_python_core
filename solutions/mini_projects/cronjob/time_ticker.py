@@ -6,5 +6,5 @@ import datetime
 abs_path = os.path.dirname(__file__)
 
 # defining the absolute path for our new file object
-with open (f'{abs_path}/minutes.txt', 'a') as f:
+with open (f'{abs_path}/dates.txt', 'a') as f:
 	f.write(f'{datetime.datetime.now()}\n')
