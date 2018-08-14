@@ -1,4 +1,4 @@
- '''
+'''
 Print pi to the console using the following formula:
 note that this is not the complete series to compute the true number pi.
 

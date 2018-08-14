@@ -5,7 +5,6 @@ Put the elements that are different in another list.
 
 Print both.
 
-
 '''
 
 list_one = [0, 4, 6, 18, 25, 42, 100]

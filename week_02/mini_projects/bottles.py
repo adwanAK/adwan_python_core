@@ -19,13 +19,3 @@ so to make it a bit harder, here are some rules to follow.
 4) Put a blank line between each verse of the song.
 
 '''
-
-# possible solution
-for n in range(99, 0, -1):
-	glassware = ('bottles', 'bottles')
-	if n == 2:
-		glassware = ('bottles', 'bottle')
-	elif n < 2:
-		glassware = ('bottle', 'bottles')
-	print(f"""{n} {glassware[0]} of beer on the wall, {n} {glassware[0]} of beer.
-Take one down and pass it around, {n-1} {glassware[1]} of beer on the wall.\n""")
