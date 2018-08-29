@@ -14,9 +14,9 @@
 
 8 - What are keywords and what are they used for?
 
-9 - What are operands and what are they used for?
+9 - What are operators and what are they used for?
 
-10 - Use the interpretor to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
+10 - Use the interpretor to demonstrate the use of some of the operators. Give the input and output of addition, multiplication and exponentiation.
 
 11 - What is floor division? How does Python 3 handle floor division?
 
@@ -24,7 +24,7 @@
 
 13 - What is the order of operations?
 
-14 - What does the + operand do when performed on strings? What does the * operand do when performed on strings? What operands can you not use on strings?
+14 - What does the + operator do when performed on strings? What does the * operator do when performed on strings? What operators can you not use on strings?
 
 15 - How do you put comments in your code? What are comments used for?
 
