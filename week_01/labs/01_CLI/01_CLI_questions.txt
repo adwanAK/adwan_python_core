@@ -1,12 +1,23 @@
 1 - Using the command line, how do you:
     - change directories?
+        using command cd
     - list the contents of a folder?
+        using command ls
     - print the path of the current directory?
+        pwd
     - move a file from one location to the another?
+        sudo mv filename to /location/
     - copy a file from one location to another?
+        sudo cp filename to /location/
     - create a file?
+        sudo touch filename
     - create a folder?
+        sudo mkdir foldername
     - delete a file?
+        rm filename
     - delete a folder?
+        rm -r directoryName
     - print the contents of a file?
+        cat filename
     - edit the contents of a file?
+        sudo vim filename

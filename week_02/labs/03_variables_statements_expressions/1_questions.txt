@@ -1,32 +1,62 @@
 1 - What is a value?
+    any input stored in variable. Values can be numbers or characters.
 
 2 - What is a type?
+    Type is the value type that the machine need to know so it can deal with. It helps in
+    memory management as well as debugging.
 
 3 - What are some values we have seen so far?
+    int, decimal, float , string ...etc.
 
 4 - What is an example of a int? A floating-point number? A string?
+    5, 5.2, " Hello World!"
 
 5 - What is a variable?
+    It is like place holder that we assign a value to it.
 
 6 - How do you assign the variable x to the value of 10?
+    x = 10
 
 7 - What is an example of an illegal variable name?
+    %myvariable^
 
 8 - What are keywords and what are they used for?
+    keywords are Python reserved words and is part of the grammer and syntax.
+    We can not use these keywords as function or value names.
 
 9 - What are operands and what are they used for?
+    operands are +, - , *, ...etc. Special symbols in math calculation and logic computation.
 
 10 - Use the interpretor to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
+        >>> 5*2
+        10
+        >>> 10 - 2
+        8
+        >>> 10/2
+        5.0
+        >>>
+
+
 
 11 - What is floor division? How does Python 3 handle floor division?
+    >>> 5/2
+    2.5
+    >>> 5//2
+    2
+    >>>
+
 
 12 - What is the difference between an expression and a statement?
 
+
 13 - What is the order of operations?
+    parenthesis, dvision and multiplication, addition and subtraction
 
 14 - What does the + operand do when performed on strings? What does the * operand do when performed on strings? What operands can you not use on strings?
+    On a string, "+" contatenate the two strings. ""*3 for example will triple the string and add them together.
 
 15 - How do you put comments in your code? What are comments used for?
+    # using hash. It help document, record chagnes and explain code for the reader or for the developer himself.
 
 
 

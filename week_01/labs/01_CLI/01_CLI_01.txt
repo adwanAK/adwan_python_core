@@ -27,3 +27,346 @@ Perform the following tasks using the CLI and copy and paste the commands and re
 - What is the difference between the two commands > and >>?
 - Append the text "how?!" of hello.txt to my_file.txt
 - Overwrite the content of my_file.txt with "tell me"
+
+
+------------Part 1- playing with files in command line.-----------------
+adwan@adwan-SVF13N12SAB:/home$ sudo mkdir CodingNomads
+[sudo] password for adwan:
+adwan@adwan-SVF13N12SAB:/home$ cd CodingNomads/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ mkdir cli_testing
+mkdir: cannot create directory ‘cli_testing’: Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ sudo mkdir cli_testing
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir file2.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ mv file3.txt theNewName.txt
+mv: cannot move 'file3.txt' to 'theNewName.txt': Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mv file3.txt theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ suso mkdir newDirectory
+
+Command 'suso' not found, did you mean:
+
+  command 'sudo' from deb sudo
+  command 'sudo' from deb sudo-ldap
+  command 'sumo' from deb sumo
+
+Try: sudo apt install <deb name>
+
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo cp file1.txt newDirectory/
+cp: -r not specified; omitting directory 'file1.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp man
+cp: missing destination file operand after 'man'
+Try 'cp --help' for more information.
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ man cp
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ uit
+
+Command 'uit' not found, did you mean:
+
+  command 'git' from deb git
+  command 'uil' from deb uil
+  command 'vit' from deb vit
+  command 'nit' from deb python-nevow
+  command 'ui' from deb userinfo
+  command 'wit' from deb wit
+  command 'uic' from deb qtchooser
+  command 'luit' from deb x11-utils
+  command 'uif' from deb uif
+
+Try: sudo apt install <deb name>
+
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  newDirectory  theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp file1.txt newDirectory/
+cp: -r not specified; omitting directory 'file1.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cp -r file1.txt newDirectory/
+cp: cannot stat 'file1.txt': No such file or directory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  newDirectory  theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ pwd
+/home/CodingNomads/cli_testing
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ^C
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp file1.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory 'file1.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp /home/CodingNomads/cli_testingfile1.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: cannot stat '/home/CodingNomads/cli_testingfile1.txt': No such file or directory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp /home/CodingNomads/cli_testing/file1.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory '/home/CodingNomads/cli_testing/file1.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp file1.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory 'file1.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp 'file1.txt' /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory 'file1.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp -r file1.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: cannot create directory '/home/CodingNomads/cli_testing/newDirectory/file1.txt': Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo cp -r file1.txt /home/CodingNomads/cli_testing/newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  newDirectory  theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt
+........some unecessary commande operation I did, removed in this line--------
+adwan@adwan-SVF13N12SAB:/home$ ls
+adwan  CodingNomads  lost+found
+adwan@adwan-SVF13N12SAB:/home$ cd CodingNomads/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ ks
+ks: command not found
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ ls
+theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ ls
+theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ ls
+theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ ls
+theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ ls
+theNewName.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$  ..
+..: command not found
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ mv newDirectory/ /home/CodingNomads/cli_testing
+mv: replace '/home/CodingNomads/cli_testing/newDirectory', overriding mode 0755 (rwxr-xr-x)? replace
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ rm newDirectory/
+rm: cannot remove 'newDirectory/': Is a directory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ rm -r newDirectory/
+rm: descend into write-protected directory 'newDirectory/'? n
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ remove newDirectory/
+
+Command 'remove' not found, did you mean:
+
+  command 'remote' from snap remote (0.01.05)
+
+See 'snap info <snapname>' for additional versions.
+
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ rm -m newDirectory/
+rm: invalid option -- 'm'
+Try 'rm --help' for more information.
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ rm help
+rm: cannot remove 'help': No such file or directory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ rm --help
+Usage: rm [OPTION]... [FILE]...
+Remove (unlink) the FILE(s).
+
+  -f, --force           ignore nonexistent files and arguments, never prompt
+  -i                    prompt before every removal
+  -I                    prompt once before removing more than three files, or
+                          when removing recursively; less intrusive than -i,
+                          while still giving protection against most mistakes
+      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or
+                          always (-i); without WHEN, prompt always
+      --one-file-system  when removing a hierarchy recursively, skip any
+                          directory that is on a file system different from
+                          that of the corresponding command line argument
+      --no-preserve-root  do not treat '/' specially
+      --preserve-root   do not remove '/' (default)
+  -r, -R, --recursive   remove directories and their contents recursively
+  -d, --dir             remove empty directories
+  -v, --verbose         explain what is being done
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, rm does not remove directories.  Use the --recursive (-r or -R)
+option to remove each listed directory, too, along with all of its contents.
+
+To remove a file whose name starts with a '-', for example '-foo',
+use one of these commands:
+  rm -- -foo
+
+  rm ./-foo
+
+Note that if you use rm to remove a file, it might be possible to recover
+some of its contents, given sufficient expertise and/or time.  For greater
+assurance that the contents are truly unrecoverable, consider using shred.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/rm>
+or available locally via: info '(coreutils) rm invocation'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ rm -r newDirectory/
+rm: descend into write-protected directory 'newDirectory/'?
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ rm -r newDirectory/
+rm: descend into write-protected directory 'newDirectory/'?
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ rm -r newDirectory/
+rm: descend into write-protected directory 'newDirectory/'? y
+rm: remove write-protected directory 'newDirectory/theNewName.txt'? y
+rm: cannot remove 'newDirectory/theNewName.txt': Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ sudo rm -r newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ mkdir file2.txt
+mkdir: cannot create directory ‘file2.txt’: Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir file2.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ mv file3.txt/ /home/CodingNomads/cli_testing/newDirectory
+mv: cannot move 'file3.txt/' to '/home/CodingNomads/cli_testing/newDirectory/file3.txt': Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp file3.txt/ /home/CodingNomads/cli_testing/newDirectory
+cp: -r not specified; omitting directory 'file3.txt/'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp file3.txt /home/CodingNomads/cli_testing/newDirectory
+cp: -r not specified; omitting directory 'file3.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp file3.txt /home/CodingNomads/cli_testing/newDirectory
+cp: -r not specified; omitting directory 'file3.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp /home/CodingNomads/cli_testing/newDirectory/file3.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: cannot stat '/home/CodingNomads/cli_testing/newDirectory/file3.txt': No such file or directory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp /home/CodingNomads/cli_testing/file3.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory '/home/CodingNomads/cli_testing/file3.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp /home/CodingNomads/cli_testing/file3.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory '/home/CodingNomads/cli_testing/file3.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo cp /home/CodingNomads/cli_testing/file3.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: -r not specified; omitting directory '/home/CodingNomads/cli_testing/file3.txt'
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cp -r file3.txt /home/CodingNomads/cli_testing/newDirectory/
+cp: cannot create directory '/home/CodingNomads/cli_testing/newDirectory/file3.txt': Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo cp -r file3.txt /home/CodingNomads/cli_testing/newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ mkdir toMoveFile.txt
+mkdir: cannot create directory ‘toMoveFile.txt’: Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mkdir toMoveFile.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo mv toMoveFile.txt /home/CodingNomads/cli_testing/newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt  newDirectory
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt  file3.txt  toMoveFile.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ ls
+file1.txt  file3.txt  toMoveFile.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing/newDirectory$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo rm -r newDirectory/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+
+
+-----------------------_Part 2 using Vim, cat, grep-----------
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vim
+
+[8]+  Stopped                 vim
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vim
+
+[9]+  Stopped                 vim
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vi
+
+[10]+  Stopped                 vi
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vim file1.txt
+
+[11]+  Stopped                 vim file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vim file1.txt/
+
+[12]+  Stopped                 vim file1.txt/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cd ..
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ sudo rm -r cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ mkdir cli_testing
+mkdir: cannot create directory ‘cli_testing’: Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-T timeout] [-u user] file ...
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ sudo mkdir cli_testing
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ ls
+cli_testing
+adwan@adwan-SVF13N12SAB:/home/CodingNomads$ cd cli_testing/
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ touch file1.txt
+touch: cannot touch 'file1.txt': Permission denied
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo touch file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo touch file2.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo touch file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vi file1.txt
+
+[13]+  Stopped                 vi file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ ls
+file1.txt  file2.txt  file3.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cat file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ vim file1.txt
+
+[14]+  Stopped                 vim file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ sudo vim file1.txt
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ cat file1.txt
+
+Hello World
+
+
+----- search file content with grep----
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$ grep -i world file1.txt
+Hello World
+adwan@adwan-SVF13N12SAB:/home/CodingNomads/cli_testing$
