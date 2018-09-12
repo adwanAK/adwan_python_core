@@ -1,4 +1,4 @@
 '''
-Complete Exercise 10.8 (p.101) - the birthday paradox - from the textbook.
+Complete Exercise 10.7 (p.121) - the birthday paradox - from the textbook.
 
 '''
