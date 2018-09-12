@@ -18,7 +18,7 @@
 
 8 - How can you use slicing to store the first and last character of a word in separate variables?
 
-9 - What are the answers to Exercise 8.4 (p.80) from the textbook?
+9 - What are the answers to Exercise 8.4 (p.96) from the textbook?
 
 10 - Can you change one or more character of a string? Why or why not?
 
@@ -26,7 +26,7 @@
 
 12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
 
-13 - Complete Exercise 8.5 (p.80) (Caesar cypher) from the textbook.
+13 - Complete Exercise 8.5 (p.96) (Caesar cypher) from the textbook.
 
 14 - Follow the directions for Exercise 8.1 (p.79) until you feel comfortable with the string methods and what methods are available.
 
