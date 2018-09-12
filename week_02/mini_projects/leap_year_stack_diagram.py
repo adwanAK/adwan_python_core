@@ -38,3 +38,35 @@ http://www.pythontutor.com/visualize.html#mode=edit
 for better visual understanding and support in creating the stack diagram.
 
 '''
+
+# Function only starts after the while loop calls it
+def check_leap_year(input_year):
+    leap_year = False
+    if(input_year % 4 == 0):
+        leap_year = True
+        if(input_year % 100 == 0):
+            if(input_year % 400 == 0):
+                leap_year = True
+            else:
+                leap_year = False
+    return(leap_year)
+
+
+input_year = input("Please input year y and 1900 <= y <= 10**5 :")
+
+# Program starts at this loop
+# This while really is not necessary, but I wanted an interactive input prompt with user:
+while(str(input_year) != "END"):
+    input_year = int(input_year)
+
+    if(input_year < 1900 or input_year > 10**5):
+        print("To terminate program type END 'Upper case'")
+        input_year = int(input("Wrong Input!!! Please input year y and 1900 <= y <= 10**5 :"))
+
+    else:
+        print("Is the year", input_year, "leap year?===>", check_leap_year(input_year), "<======")
+        print("\nTo terminate program type END 'Upper case")
+        input_year = input("Please input year y and 1900 <= y <= 10**5 :")
+
+
+print("Thank you! Program terminated")

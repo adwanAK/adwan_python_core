@@ -13,5 +13,5 @@ print("input upper: ")
 upper = int(input())
 
 print("-----squares----")
-for x in range(lower,upper+1):
+for x in range(lower, upper+1):
     print(x**2)

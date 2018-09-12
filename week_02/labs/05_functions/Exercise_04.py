@@ -15,7 +15,7 @@ def computeList(num_list, maximum, minimum, total):
     return (total, maximum, minimum)
 
 
-num_list = [2, 3, 880, 23, 245, 52, 1, 3, 2, 45242, 2, 5, 2, 1,  67, 7]
+num_list = [880, 23, 245, 52, 3, 2, 45242, 200000, 5, 2, 67, 7]
 maximum = 0
 minimum = 0
 total = 0

@@ -11,10 +11,10 @@
 # 	8 |16|24|32|40|48|56|64|72|80 |
 # 	9 |18|27|36|45|54|63|72|81|90 |
 # 	10|20|30|40|50|60|70|80|90|100|
-for x in range(1,11):
-	y =x
-	for y in range(1,11):
-		result = x*y
-		if(result <10)
-		print("|"'", result, |", end="")
-	print("")
+
+for x in range(1, 11):
+    y = x
+    for y in range(1, 11):
+        result = x*y
+        print(result, " |", end="")
+    print("")

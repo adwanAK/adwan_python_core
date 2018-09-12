@@ -3,7 +3,7 @@
 
 # '''
 # """ to break from loop and stop its execution"""
-#Below is a "while" loop to print out every third number counting backwards from 1000 to 1
+# Below is a "while" loop to print out every third number counting backwards from 1000 to 1
 # Here I am breaking out of the loop before it goes to negative range
 x = 100
 while x >= 1:
