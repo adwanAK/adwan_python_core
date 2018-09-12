@@ -12,3 +12,10 @@ Train using string methods and loops on an open-end mini-project!
 - use a for loop for creating the full lyrics
 
 '''
+lyrics = "My first verse:this is my 2nd verse:and my last verse"
+chorus = "my chorus, my chorus"
+
+verses = lyrics.split(":")
+for verse in verses:
+    print(verse)
+    print(chorus, "\n")

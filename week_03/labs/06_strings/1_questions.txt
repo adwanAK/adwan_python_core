@@ -1,32 +1,90 @@
 1 - What is a string?
+    A string is group of characters and a character can be any number, character or symbol.
 
 2 - What is an index?
+    It is position of the character.
 
 3 - What letter will the following code print? Why?
 
     word = 'hello'
     index_two = word[2]
     print index_two
+        It will print the letter "l" because we go pass index 0,1 to 2.
 
 4 - What is the len() functions used for?
+    To return lenth of the string
 
 5 - How can you get the last character of a word using the len() function?
+    word = "something"
+    word_length = leng(word)
+    last_character = word[word_length-1]
 
 6 - What is string slicing and how does it work?
+    Slicing takes part of a string or split it in how many ways we specify.
 
 7 - How to do slice the string "python" to produce the string "thon"?
+    _string ="pythong"
+    _string[2:6]
 
 8 - How can you use slicing to store the first and last character of a word in separate variables?
+    first_char= _string[0]
+    last_char= _string[len(word)-1]
 
 9 - What are the answers to Exercise 8.4 (p.96) from the textbook?
+def any_lowercase1(s):
+    for c in s:
+        if c.islower():
+            return True
+        else:
+            return False
+# any_lowercase1() will return on first character which doesn't produce what we want
+
+
+def any_lowercase2(s):
+    for c in s:
+        if 'c'.islower():
+            return 'True'
+        else:
+            return 'False'
+# any_lowercase2() will only evaluate the letter 'c' not the parameter we are passing
+
+
+def any_lowercase3(s):
+    for c in s:
+        flag = c.islower()
+    return flag
+# any_lowercase3() will run through the whole string and return on last character value only.
+
+
+def any_lowercase4(s):
+    flag = False
+    for c in s:
+        flag = flag or c.islower()
+    return flag
+# This one works and I do not know why. I have to ask instructor
+
+def any_lowercase5(s):
+    for c in s:
+        if not c.islower():
+            return False
+    return True
+# any_lowercase5() Not doing what we want.
+# Checks every letter if it is not lowercased and returns boolean if all the
+    # letters in string are lowercased or not;
 
 10 - Can you change one or more character of a string? Why or why not?
+    No. You cannot change it because it is immutable.
 
 11 - What is invocation?
+    A statement that calls a method.
+
 
 12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
+    wrod = "hello"
+    index = word.find(e)
 
 13 - Complete Exercise 8.5 (p.96) (Caesar cypher) from the textbook.
+
 
 14 - Follow the directions for Exercise 8.1 (p.79) until you feel comfortable with the string methods and what methods are available.
 
