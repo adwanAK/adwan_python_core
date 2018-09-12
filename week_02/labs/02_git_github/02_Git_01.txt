@@ -5,12 +5,12 @@
 There are two main ways in which you get started working with a git repository on your local machine. The first is to initialize a folder, or a project, as a new git repository. This creates the .git folder in the project that tracks all of the git functionality. The second way is to clone an existing repository from Github onto your machine.
 
 3 - Cloning repository from Github:
-	- create a new folder in your CodingNomads folder called labs
-	- if you haven't already, clone this repository inside of your labs folder
-	- create a new Github repository with the same name as the repository that you cloned
-	- add a new remote to your local git repository that points to your Github
-	- push the repository to your Github
-	- visit the Github repository to make sure the contents were pushed
+	- create a new folder in your CodingNomads folder called "clone_wars"
+	- clone the following repository into "clone_wars": https://github.com/martin-martin/clone-test
+	- through Github's website, create a new repository with the same name as the repository that you cloned
+	- add a new remote to your local git repository that points to the repo that you just created on your own Github
+	- push the local repository to your Github repository
+	- visit the Github repo to make sure the contents were pushed
 
 4 - Initializing a new git repository:
 	- in your CodingNomads folder, create new folder git_practice

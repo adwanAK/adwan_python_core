@@ -1,4 +1,4 @@
 '''
-Complete Exercise 8.3 (p.79) from the textbook.
+Complete Exercise 8.3 (p.95) from the textbook.
 
 '''
