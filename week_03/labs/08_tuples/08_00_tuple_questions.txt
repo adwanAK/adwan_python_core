@@ -1,12 +1,21 @@
 1 - What is one important difference between tuples and lists?
+    tuples are immutable
+    lists are mutable
 
 2 - What are two ways to create a tuple?
+    _tuple =  'a', 'b', 'c', 'd', 'e'
+    _tuple = ('a', 'b', 'c', 'd', 'e')
+
 
 3 - Give an example of tuple assignment to assign two variables.
+    _tuple = 'a', 'b'
+    _tupple = ('a', 'b')
 
 4 - Why is it beneficial to return a tuple from a function?
 
-5 - What are variable-length arguments?
+    Instead of returning one variable or value, you can return more than one value.
+
+5 - What are variable-length arguments? <<<<<<Ignore 5 till the end>>>>
 
 6 - How is gather and scatter used?
 

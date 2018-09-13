@@ -6,3 +6,4 @@ numbers in the list as well as the average.
 Print the results.
 
 '''
+
