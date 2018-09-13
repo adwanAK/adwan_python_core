@@ -12,7 +12,8 @@
     so that it adds two attributes of that class.
 - Once the objects are created, change some of the attribute values.
 
-Be creative. Have some fun. Using objects you can model anything you want.
-Cars, animals, poker games, sports teams, trees, beers, people and so on.
+Be creative. Have some fun. :)
+Using objects you can model anything you want.
+Cars, animals, poker games, sports teams, trees, beers, people etc...
 
 '''
