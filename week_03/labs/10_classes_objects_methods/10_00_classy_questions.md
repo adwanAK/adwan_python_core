@@ -20,7 +20,7 @@ What do they each do?
 - What is object-oriented programming?
 
 
-## Methods (page 161)
+## Methods
 
 - What is a method?
 
