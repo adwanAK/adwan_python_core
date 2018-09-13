@@ -7,17 +7,26 @@ Please refer to the [Course Overview](https://codingnomads.atlassian.net/wiki/sp
 
 ---
 
-## Fork me!
+## Download me!
 
-After you have created a GitHub account, press the "Fork" symbol at the
-top right of this repository. It looks like this:
+After you have created a GitHub account, press the green "Clone or Download"
+button at the top right of this repository. That will open a dialog from
+which you can click a blue "Download ZIP" button to download the repo.
 
-![Fork repo](media/fork.png)
+It looks like this:
 
-This will create **your own copy** of all the files on your personal GitHub
-profile. You can then use the repo to practice pushing to and pulling from
-a remote repo, edit files locally when you complete the exercises, and
-keeping your personal changes under version control.
+![Download repo](media/download.png)
+
+Unzip the file. This folder contains **your own copy** of all the labs and
+mini-project files (including solutions) that we will be working with.
+
+Start completing the exercises locally on your computer. After you've
+learned about Git and GitHub, add a new remote to the folder that points
+to a fresh GitHub repository on your own GitHub account.
+
+Push your work there, and inform the course instructors by sending a
+link on Slack.
+
 
 ### Contributing
 
@@ -38,8 +47,7 @@ exercise of your own for other students to learn from** - you can add
 these improvements to the original repository.
 
 
-Check out how to [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) and how to [create a pull request from
-a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+Check out how to [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) and how to [create a pull request](https://help.github.com/articles/about-pull-requests/).
 
 
 <img src="media/cn_square.png" alt="CodingNomads logo" width="400px"/>
