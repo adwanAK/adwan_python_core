@@ -31,7 +31,7 @@ What do they each do?
 - What is the `__init__` method and what is it used for?
 
 - Give an example `__init__` method for a `Car` class with attributes:
-`make`, `model` and `year.
+`make`, `model` and `year`.
 
 - How do `__init__` methods handle variable arguments?
 
