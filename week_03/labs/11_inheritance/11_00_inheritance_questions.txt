@@ -1,4 +1,5 @@
-- What is the difference between class attributes and instance attributes?
+- What is the difference between class attributes and
+    instance attributes?
 
 - What is inheritance?
 
