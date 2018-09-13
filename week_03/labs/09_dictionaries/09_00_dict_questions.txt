@@ -1,0 +1,35 @@
+1 - What is the difference between a list and a dictionary?
+
+2 - What is a key-value pair?
+
+3 - How do you add an item to the dictionary first_dict using square
+    brackets?
+
+4 - How do you add several items to the dictionary first_dict using
+    curly braces?
+
+5 - When you print out a dictionary, is there a order to the items?
+    Why or why not?
+
+6 - How do you print out a value using a key?
+
+7 - How does the in operator work with dictionaries?
+
+8 - What is an implementation?
+
+9 - Write an example for loop to traverse a dictionary loop_dict and
+    print out the keys and values.
+
+10 - How can you find search for a key given a value.
+    What is this called?
+
+11 - Can lists be keys of a dictionary? Why or why not?
+
+12 - Can lists be values of a dictionary? Why or why not?
+
+13 - What is a global variable?
+
+14 - How do you reassign a global variable inside of a function?
+
+15 - When do you not need to use the "global" keyword to modify the
+    value of a global variable?

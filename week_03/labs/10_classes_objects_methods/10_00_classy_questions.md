@@ -2,9 +2,9 @@
 
 - What is a class?
 
-- How do you define a new class called MyFirstClass?
+- How do you define a new class called `MyFirstClass`?
 
-- How do you create an object of the class MyFirstClass?
+- How do you create an object of the class `MyFirstClass`?
 
 - What is instantiation?
 
@@ -12,7 +12,8 @@
 
 - What does it mean when an object is embedded?
 
-- What is the difference between copy.copy and copy.deepcopy? What do they each do?
+- What is the difference between `copy.copy` and `copy.deepcopy`?
+What do they each do?
 
 - What is the difference between a pure function and a modifier?
 
@@ -27,17 +28,16 @@
 
 - What is invocation?
 
-- What is a method? What makes it different than a function?
+- What is the `__init__` method and what is it used for?
 
-- What is the __init__ method and what is it used for?
+- Give an example `__init__` method for a `Car` class with attributes:
+`make`, `model` and `year.
 
-- Give an example init method for a Car class with the attribute make, model and year.
+- How do `__init__` methods handle variable arguments?
 
-- How do init methods handle variable arguments?
+- What is the `__str__` method used for?
 
-- What is the __str__ method used for?
-
-- How do you use a __str__ method?
+- How do you use a `__str__` method?
 
 - What is operator overloading?
 
