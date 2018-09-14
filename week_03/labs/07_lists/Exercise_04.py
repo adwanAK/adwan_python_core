@@ -3,16 +3,16 @@ Complete Exercise 10.2 (p.120) from the textbook.
 
 '''
 
-def cumsum(param):
+def cumsum(t):
     _sum = 0
-    cumulative = [0]*len(param)
-    param = list(param)
+    cumulative = [0]*len(t)
+    t = list(t)
 
-    for x in param:
-        for y in range(0, param.index(x)+1):
-            _sum = _sum + param[y]
+    for x in t:
+        for y in range(0, t.index(x)+1):
+            _sum = _sum + t[y]
 
-        cumulative[param.index(x)] = _sum
+        cumulative[t.index(x)] = _sum
         _sum = 0
 
 
