@@ -32,7 +32,7 @@ class ShirtOrder:
         self.quantity = quantity
         self.color = color
         self.text = text
-        # Object can add sleeve style
+        # sub class can add sleeve style
 
     def __str__(self):
         return 'Object ShirtOrder %g :%s :%s' % (self.quantity, self.color, self.text)
@@ -54,7 +54,7 @@ class PantsOrder:
         self.quantity = quantity
         self.color = color
         self.back_pocket = back_pocket
-        # object can add short or normal PantsOrder
+        # sub class can add short not necessiraly pants
 
     def __str__(self):
         return 'Object PantsOrder %s :%s :%s' % (self.quantity, self.color, self.back_pocket)
