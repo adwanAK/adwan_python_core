@@ -18,3 +18,17 @@ Source: Exercise in chapter "Strings" in Think Python 2e:
 http://greenteapress.com/thinkpython2/html/thinkpython2009.html
 
 '''
+
+str_1 = "Hello# Worl#d#"
+print("")
+print(str_1.strip("#"))
+
+print(str_1.replace("#",""))
+
+print(f"'W' Found at position:{str_1.find('W')}")
+
+print(f"'l' is found at {str_1.find('l', 5)} where we started search at index 5")
+
+
+
+

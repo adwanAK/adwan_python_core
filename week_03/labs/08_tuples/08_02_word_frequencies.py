@@ -10,6 +10,8 @@ Source: Chapter on "Tuples" in Think Python 2e:
 http://greenteapress.com/thinkpython2/html/thinkpython2013.html
 
 '''
+
+import string
 sometext = """No in he real went find mr. Wandered or strictly raillery stanhill as. Jennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now how nay cold real case.
 
 Good draw knew bred ham busy his hour. Ask agreed answer rather joy nature admire wisdom. Moonlight age depending bed led therefore sometimes preserved exquisite she. An fail up so shot leaf wise in. Minuter highest his arrived for put and. Hopes lived by rooms oh in no death house. Contented direction september but end led excellent ourselves may. Ferrars few arrival his offered not charmed you. Offered anxious respect or he. On three thing chief years in money arise of.
@@ -28,7 +30,7 @@ Sex and neglected principle ask rapturous consulted. Object remark lively all di
 
 She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation.
 
-Do so written as raising parlors spirits mr elderly. Made late in of high left hold. Carried females of up highest calling. Limits marked led silent dining her she far. Sir but elegance marriage dwelling likewise position old pleasure men. Dissimilar themselves simplicity no of contrasted as. Delay great day hours men. Stuff front to do allow to asked he.z
+Do so written as raising parlors spirits mr elderly. Made late in of high left hold. Carried females of up highest calling. Limits marked led silent dining her she far. Sir but elegance marriage dwelling likewise position old pleasure men. Dissimilar themselves simplicity no of contrasted as. Delay great day hours men. Stuff front to do allow to asked he.
 """
 
 
@@ -37,25 +39,27 @@ Do so written as raising parlors spirits mr elderly. Made late in of high left h
 
 
 def most_frequent(text):
-    english_letters = "abcdefghijklmnopqrstuvwxyz"
+    english_letters = string.ascii_lowercase
+    text = str(text)
+    text = text.strip(string.punctuation + string.whitespace)
     text = text.lower()
 
-   #c print(text)
 
     list_of_tuples = []
     tuple_of_two = ()
 
-    for e in english_letters:
+    for letter in english_letters:
         count = 0
 
-        for x in range(0, len(text)):
-            if e == text[x]:
+        for index in range(0, len(text)):
+            if letter == text[index]:
                 count += 1
 
-        tuple_of_two = (e, count)
+        tuple_of_two = (letter, count)
         list_of_tuples.append(tuple_of_two)
+
 
     return list_of_tuples
 
 
-print(most_frequent(sometext))
+print (sorted(most_frequent(sometext), key=lambda _tuple : _tuple[1], reverse=True))

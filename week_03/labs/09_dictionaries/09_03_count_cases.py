@@ -38,5 +38,5 @@ def process_sentence(sentence):
 sentence = "I love to work with dictionaries!"
 final_dict = process_sentence(sentence)
 for key in final_dict:
-    print(key, ": ", final_dict[key])
+    print(f"{key}: {final_dict[key]}")
 

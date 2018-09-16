@@ -24,6 +24,7 @@ def distance_between_points(p,q):
     return math.sqrt(x_y_sum)
 
 
+
 def main():
     # Create first Point object
     first = Point()
@@ -33,9 +34,9 @@ def main():
     second = Point()
     second.x = 10
     second.y = 15
-    
-    print distance_between_points(first, second)
 
-    
+    print(distance_between_points(first, second))
+
+
 if __name__ == '__main__':
     main()
