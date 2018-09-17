@@ -1,0 +1,3 @@
+Name is 31 years old.
+Name is attending course Python.
+Name will become a Coding Nomad.
