@@ -75,25 +75,4 @@ class TrouserOrder:
 
 
 
-# ###############Testing Script##############################
-# Create one TShirt
-myTShirt = TShirt(15, "Green", "Love CodingNomads")
-# print(myTShirt)
-
-# Print TShirt information nicely
-myTShirt.print_nicely()
-myTShirt.print_category()
-
-
-# # Create two pants object, and add quantity of the two
-# myTrouserOrder1 = TrouserOrder(4, "white", True)
-# print(myTrouserOrder1)
-
-# myTrouserOrder2 = TrouserOrder(11, "Red", True)
-# print(myTrouserOrder2)
-# myTrouserOrder2.print_nicely()
-# myTrouserOrder2.print_category()
-
-# # Creat object 3 and add their quanity attributes using operand override.
-# print(myTrouserOrder1 + myTrouserOrder2)
 
