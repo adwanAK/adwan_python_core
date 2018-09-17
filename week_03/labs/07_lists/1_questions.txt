@@ -1,44 +1,76 @@
 1 - Can you have a list with more than one type?
+    yes
 
 2 - How do you create a list?
+    _list = []
+    _list2 = list()
 
 3 - How do you nest a list?
+    _list3 = [_list, _list2]
 
 4 - Lists are mutable. Explain this.
+    you can change its values
 
 5 - What does it mean to have the [] operators on the left side of an assignment?
+    x = [0]
+    x[0] = 1
 
 6 - What happens with a index value is negative? How does this change how an element is accessed?
+    Starts at the end
 
 7 - How can you use the in operator to determine in a value exists in a list?
+    if value in list
 
-8 - How can you use the + and * operators on lists?
+8 - How can you use the + and * operators on lists
+    list 1 + list 2 = concatenate
+    list * list2 = will multiply
 
 9 - What is an augmented assignment statement?
+    x = 10
+    x += 10, x *= 10
 
 10 - WHat are three ways delete an element from a list? How are they different?
+    _list.pop()
+    _list.del() specify value
+    _list.remove() sepcify inde
 
 11 - What is the difference between and list and a string?
+    list immutable but strin is not
+
 
 12 - What is the difference between the list() function and the split() method?
+    list() put values into a list including spaces
+    split() create new list based on specified parameters or split threshold
 
 13 - How do you use a delimiter with the split() method?
 
+
 14 - What is the `is` operator used for?
+    to check if the two variables have the same value or reference in memeory
 
 15 - If two objects are identical does that also make them equivalent?
+
 
 16 - If two objects are equivalent does that also make them identical?
 
 17 - What is a reference?
+    refer to something in memory
 
 18 - What is it called when an object has more than one reference?
 
+
 19 - Give an example of an operation that modifies a list.
+    t2 = [2, 4]
+    t1[1] = 4
+
 
 20 - Give an example of an operation that creates a new list.
+    t1 = [1,2]
+    t2 = [3, 4]
+    t3 = t1 + t2
 
 21 - What is one reason it is important to know the difference between the two kinds of operations above?
+    Because the first one if not done properly will cause error. Also, values of existing variable are changed.
 
 
 

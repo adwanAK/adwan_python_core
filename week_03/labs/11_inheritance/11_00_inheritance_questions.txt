@@ -1,12 +1,20 @@
 - What is the difference between class attributes and
     instance attributes?
+The difference is that the attribute on the class is shared by all instances. The attribute on an instance is unique to that instance
 
 - What is inheritance?
+    A base class can pass on its attributes and methods to a subclass.
 
 - Why do we use inheritance?
+    For code reusability and to define relationship between classes and objects.
 
 - How does a class inherit another class?
+    By being sub-class of the same blueprint of the parent class. It copies attributes and behavior (methods).
 
 - What is an example of a parent/child class relationship?
+    Parent Ball
+    Child Soccer ball
+
 
 - How many levels can a hierarchy extend?
+    Almost infinte. There is no general rule or limit.

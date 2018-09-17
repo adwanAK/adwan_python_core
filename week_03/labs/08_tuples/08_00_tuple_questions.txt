@@ -4,12 +4,13 @@
 
 2 - What are two ways to create a tuple?
     _tuple =  'a', 'b', 'c', 'd', 'e'
-    _tuple = ('a', 'b', 'c', 'd', 'e')
+    _tuple = ('a', 'b', 'c', 'd', 'e
 
+        _tupe = ()
+        t = tuple()
 
 3 - Give an example of tuple assignment to assign two variables.
-    _tuple = 'a', 'b'
-    _tupple = ('a', 'b')
+     age, name = 15, Adwan
 
 4 - Why is it beneficial to return a tuple from a function?
 

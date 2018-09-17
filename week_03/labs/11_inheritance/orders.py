@@ -29,6 +29,7 @@ class TShirt:
     """This class creates object normal TShirt"""
     brand_tag = "Adwan Online"
     washing_type = "dry clean only"
+    category_name = "T-shirts"
 
     def __init__(self, quantity, color="white", text="no_text"):
         self.quantity = quantity
@@ -37,16 +38,21 @@ class TShirt:
         # sub class can add sleeve style
 
     def __str__(self):
-        return 'Object TShirt %g :%s :%s' % (self.quantity, self.color, self.text)
+        return '%s %g :%s :%s' % (self.category_name, self.quantity, self.color, self.text)
 
-    def print_TShirt(self):
-        return print(f"TShirt object with attributes color is {self.color}, text printed ({self.text}) and quantity set to ({self.quantity}) \n")
+    def print_nicely(self):
+        print(f"""{self.category_name} ordered with attributes color is {self.color}, text printed ({self.text}) and quantity set to ({self.quantity})""")
+
+    def print_category(self):
+        print(f"""Category -->{self.category_name}""", end ="")
+
 
 
 class TrouserOrder:
     """Class TrouserOrder to create TrouserOrder objects with relevant attributes"""
     company_name = "Adwan's Store"
     company_address = "adwanstore.sa"
+    category_name = "Trousers"
 
     def __init__(self, quantity, color="blue", back_pocket=False):
         self.quantity = quantity
@@ -55,33 +61,39 @@ class TrouserOrder:
         # sub class can add short not necessiraly pants
 
     def __str__(self):
-        return 'Object TrouserOrder %g :%s :%s' % (self.quantity, self.color, self.back_pocket)
+        return '%s %g :%s :%s' % (self.category_name, self.quantity, self.color, self.back_pocket)
 
     def __add__(self, other):
         self.quantity = self.quantity + other.quantity
         return self.quantity
 
-    def print_TrouserOrder(self):
-        return print(f"TrouserOrder object with attributes color is {self.color}, quantity set to ({self.quantity}) and back pocket set to ({self.back_pocket})")
+    def print_nicely(self):
+        print(f"{self.category_name} created with attributes color {self.color}, quantity set to ({self.quantity}) and back pocket set to ({self.back_pocket})")
+
+    def print_category(self):
+        print(f"""Category -->{self.category_name}""", end="")
 
 
-# ##########################################################
+
+# ###############Testing Script##############################
 # Create one TShirt
 myTShirt = TShirt(15, "Green", "Love CodingNomads")
-print(myTShirt)
+# print(myTShirt)
 
 # Print TShirt information nicely
-myTShirt.print_TShirt()
+myTShirt.print_nicely()
+myTShirt.print_category()
 
 
-# Create two pants object, and add quantity of the two
-myTrouserOrder1 = TrouserOrder(4, "white", True)
-print(myTrouserOrder1)
+# # Create two pants object, and add quantity of the two
+# myTrouserOrder1 = TrouserOrder(4, "white", True)
+# print(myTrouserOrder1)
 
-myTrouserOrder2 = TrouserOrder(11, "Red", True)
-print(myTrouserOrder2)
+# myTrouserOrder2 = TrouserOrder(11, "Red", True)
+# print(myTrouserOrder2)
+# myTrouserOrder2.print_nicely()
+# myTrouserOrder2.print_category()
 
-
-# Creat object 3 and add their quanity attributes using operand override.
-print(myTrouserOrder1 + myTrouserOrder2)
+# # Creat object 3 and add their quanity attributes using operand override.
+# print(myTrouserOrder1 + myTrouserOrder2)
 

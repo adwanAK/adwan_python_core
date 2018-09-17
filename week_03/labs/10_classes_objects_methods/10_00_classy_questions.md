@@ -65,7 +65,7 @@ What do they each do?
 
 
 - How do `__init__` methods handle variable arguments?
-    Basically, if argumetn is passed it stores them in the object's "self" corresponding
+    Basically, if argument is passed it stores them in the object's "self" corresponding
     attributes.
     Arguments can be optional or mandatory. It can also take one argument and leave others
      unchanged.

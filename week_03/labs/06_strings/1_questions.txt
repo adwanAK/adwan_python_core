@@ -81,7 +81,7 @@ def any_lowercase5(s):
 
 12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
     wrod = "hello"
-    index = word.find(e)
+    index = word.find("e")
 
 13 - Complete Exercise 8.5 (p.96) (Caesar cypher) from the textbook.
 
@@ -89,3 +89,5 @@ def any_lowercase5(s):
 14 - Follow the directions for Exercise 8.1 (p.79) until you feel comfortable with the string methods and what methods are available.
 
 15 - How is the in operator used?
+    if e in "hello"
+
