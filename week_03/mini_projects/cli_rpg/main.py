@@ -1,6 +1,8 @@
 from rpg import Hero, Opponent
 import random
 import time
+from tqdm import tqdm
+
 
 
 def main():
@@ -16,13 +18,13 @@ def play_game():
         Opponent("Pique", 89),
     ]
 
-    hero = Hero("Caden", 100)
+    hero = Hero("Caden", 95)
 
     while True:
-
         # end the game if all opponets are defeated
         if len(opponents) <= 0:
             print("you won the game!")
+            exit()
         cmd = input("enter [a] for attack or [q] to quit:")
 
         while cmd not in ["a", "q"]:
@@ -38,8 +40,12 @@ def play_game():
                 opponents.remove(opponent)
                 print("you win!")
             else:
-                print("you lost!")
-                time.sleep(5)
+                print("you lost!  You have to wait 5 sec")
+                bar = ""
+                for i in range(10):
+                    bar = bar + "██████████"
+                    print(bar, end="\r")
+                    time.sleep(0.5)
                 print("you are refreshed again")
 
 

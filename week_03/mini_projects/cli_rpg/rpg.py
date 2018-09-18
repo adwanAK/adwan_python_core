@@ -11,7 +11,7 @@ class Hero():
         return f"{self.name}, lvl:{self.level}"
 
     def attack(self, opponent):
-        hero_roll = random.randint(1, 12) * self.level
+        hero_roll = random.randint(1, 6) * self.level
         opponent_roll = random.randint(1, 6) * opponent.level
 
         if hero_roll >= opponent_roll:

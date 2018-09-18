@@ -18,3 +18,19 @@ Source: Read through the "Files" chapter in Think Python 2e:
 http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 
 '''
+
+import os
+
+def walk1(dirname):
+    directory_list = os.listdir(dirname)
+    for name in directory_list:
+        path = os.path.join(dirname, name)
+        if os.path.isfile(path):
+            print(path)
+
+        else:
+            walk1(path)
+
+
+walk1('.')
+

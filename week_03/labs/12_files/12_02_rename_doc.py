@@ -18,9 +18,14 @@ http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 def sed (pattern, replacement, input_file, output_file):
     output_string = read_file(input_file)
     write_file(output_string.replace(pattern, replacement), output_file)
+    # using method replace to replace pattern
 
 
 def read_file(input_file):
+    '''
+This function takes string name of the file and store text in string data
+Also, here I am trying try!
+'''
     try:
         f= open(input_file, 'r')
         data = f.read()
@@ -41,7 +46,12 @@ def read_file(input_file):
 
 
 
+
 def write_file(output_string, output_file):
+    '''
+This function takes output string from read_file, try to catch errors
+ and store text output file
+'''
     try:
         f= open(output_file, 'w')
         f.write(output_string)
