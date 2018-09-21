@@ -10,3 +10,8 @@ TIP:
 
 '''
 
+# After some googling, I found this Requests libray useful
+import requests
+r  = requests.get('https://codingnomads.co/')
+print(r.text)
+
