@@ -1,0 +1,1 @@
+{"underwear": 60, "socks": 90, "hats": 70, "shorts": "50"}

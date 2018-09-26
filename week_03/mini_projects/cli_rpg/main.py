@@ -42,10 +42,10 @@ def play_game():
             else:
                 print("you lost!  You have to wait 5 sec")
                 bar = ""
-                for i in range(10):
+                for i in range(5):
                     bar = bar + "██████████"
                     print(bar, end="\r")
-                    time.sleep(0.5)
+                    time.sleep(1)
                 print("you are refreshed again")
 
 

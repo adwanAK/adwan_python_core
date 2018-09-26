@@ -1,0 +1,84 @@
+API Documentation
+
+AUTHENTICATION
+No authentication required.
+
+
+You can only work in inventory URL:localhost:8000/inventory/ using methods GET, PATCH, DELETE, POST.
+Do no worry about putting slash at the end or not, the code will take care of that localhost:8000/inventory/  and localhost:8000/inventory are the same!
+
+
+GET
+URL:localhost:8000/inventory/<category>
+i.e:localhost:8000/inventory/socks
+This will return amount for category socks. If no category specified,
+then will return all inventory categories with amounts.
+
+
+PATCH
+URL:localhost:8000/inventory/<category>?<amount=value>
+i.e:localhost:8000/inventory/socks?amount=5
+This will add amount of 5 to categoy socks
+
+
+
+
+DELETE
+URL:localhost:8000/inventory/<category>?<amount=value>
+i.e:localhost:8000/inventory/hats?amount=6
+This will subtract amount of 6 from category hats
+
+Warning! If not amount specified, the whole category will be deleted.
+URL:localhost:8000/inventory/<category>
+i.e:localhost:8000/inventory/hats
+This will delete category hats!
+
+
+
+
+POST
+URL:localhost:8000/inventory/<category>?<amount=value>
+i.e:localhost:8000/inventory/underwear?amount=5
+This will create new category underwear with initial amount 5. If category already exists, returns bad request!
+Warning! If amount not specified, no category will be created. Returns bad request.
+
+
+
+
+
+########################
+method == 'GET':
+            if 'category' not in url:
+                return invetory
+            else:
+                return category inventory
+
+
+method == 'PATCH':
+            if category in inventory:
+                add amount to inventory
+                return updated inventory
+            else:
+                return (f"Category doesn't exit\. Bad PATCH request.")
+
+method == 'DELETE':
+            if 'category' in inventory but amount not specfied:
+                remove category form inventory
+                return updated inventory
+
+
+            elif if category and amount specified:
+                then only subtract from category the amount
+                return inven
+            else if category not specified:
+                return Bad DELETE! Category does not exist! Use PATCH to add.
+
+method =='POST':
+            if new category is in inventory already:
+                return "Bad POST! Category exists! Use method PATCH to edit"
+            else if new category is new but 'amount' not specified:
+                return "Bad POST! Specify amount to create i.e. Category?amount=5"
+            else if both category is new and 'amount' is specified:
+                add new category to inventory
+                return udpated inventory
+

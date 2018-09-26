@@ -1,14 +1,13 @@
 
-# with open("test.txt", 'w') as f:
-#     header = "This is the header"
-#     my_string = f"<head> {header} </head>"
-#     f.write(my_string)
+def compute(_list):
+
+    for i in range(0, len(_list)):
+        for y in range(0, len(_list)):
+            if y == i:
+                continue
+            elif _list[i] + _list[y] == 8:
+                print(f"{_list[i]}, {_list[y]}")
 
 
-def my_function(arg: int, arg2: int) -> str:
-    return print(f"printed {arg} : {arg2}")
-
-
-my_function(1, 2)
-
-
+_list = [1, 2, 6, 4, 5, 3]
+compute(_list)
